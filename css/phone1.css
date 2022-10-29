@@ -1,0 +1,69 @@
+.navbar ul{
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.heading{
+    font-size: 1.3rem;
+}
+
+.gallery img{
+    width: 70%;
+}
+
+.about{
+    flex-direction: column;
+}
+
+.about h2{
+    text-align: center;
+}
+
+.about img{
+    width: 50%;
+    padding: 0px 15px;
+}
+
+.message{
+    width: 40%;
+    height: 200px;
+}
+
+
+
+.columns{
+    grid-template-columns: auto;
+    justify-content: center;
+}
+
+.box {
+    height: 200px;
+    width: 200px;
+    background-color: rgba(255,255,255,0.1);
+    border-radius: 20px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.box h2{
+    color: purple;
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.box p{
+    color: rgb(78, 200, 125);
+    font-size: 0.8rem;
+}
+
+.name{
+    padding: 5px;
+}
+
+.name h2{
+    font-size: 1.2rem;
+}
+
+.name p{
+    font-size: 0.8rem;
+}
